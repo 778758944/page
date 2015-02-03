@@ -4,18 +4,6 @@
  * @date    2015-02-03 14:10:29
  * @version $Id$
  */
- if($.browser.chrome){
- 		alert("google");
- 	}
- 	else if($.browser.mozilla){
- 		alert("firefox");
- 	}
- 	else if($.browser.msie){
- 		alert("ie");
- 	}
-
-
-
  if(typeof jQuery==="undefined"){
  	var url=window.location;
  	url=url.toString();
