@@ -14,6 +14,11 @@
  		}
  	}
 };
+window.onload=function(){
+	if(!$("#wrapper")){
+		alert("#wrapper");
+	}
+}
 $(function(){
 	var time1;
 	var time2;
